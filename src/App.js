@@ -28,7 +28,7 @@ const Landing = () => {
     <div>
       <h1>Landing Page</h1>
       {isLoggedIn ? (
-        <p>You are already logged in. <a href="http://localhost:4000">Go to App</a></p>
+        <p>You are already logged in. <a href="https://haikuapp.netlify.app">Go to App</a></p>
       ) : (
         <button onClick={handleLogin}>Login with Google</button>
       )}
